@@ -1,6 +1,6 @@
 import json
 
-with open('.\MilestoneInputs\Input\Milestone0.json','r') as file:
+with open('.\MilestoneInputs\Input\Milestone1.json','r') as file:
     data = json.load(file)
 
 steps = data['steps']
@@ -103,7 +103,7 @@ for i in schedule:
         
 schedule = {'schedule': schedule}
 json_obj = json.dumps(schedule,indent=1)
-with open(".\output\Milestone0.json",'w') as outfile:
+with open(".\output\Milestone1.json",'w') as outfile:
     outfile.write(json_obj)
 
 

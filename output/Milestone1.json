@@ -15,6 +15,13 @@
    "end_time": 15
   },
   {
+   "wafer_id": "W1-3",
+   "step": "S2",
+   "machine": "M3",
+   "start_time": 0,
+   "end_time": 15
+  },
+  {
    "wafer_id": "W1-1",
    "step": "S2",
    "machine": "M2",
@@ -27,6 +34,13 @@
    "machine": "M1",
    "start_time": 15,
    "end_time": 25
+  },
+  {
+   "wafer_id": "W1-3",
+   "step": "S1",
+   "machine": "M1",
+   "start_time": 25,
+   "end_time": 35
   }
  ]
 }
